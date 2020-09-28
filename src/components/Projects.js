@@ -5,7 +5,7 @@ import oth from "./img/oth.jpg"
 import burger from "./img/burger.jpg"
 import crystal from "./img/crystal.jpg"
 import disco from "./img/disco.jpg"
-import retail from "./img/retail.jfif"
+import tubecast from "./img/tubecast.jpg"
 
 const TheGrid = styled.div`
 display: grid;
@@ -57,7 +57,7 @@ width: 275px;
 }
 `
 
-const Rentable = styled.div`
+const Block1 = styled.div`
 grid-row-start: 1;
 grid-row-end: 2;
 display: grid;
@@ -68,7 +68,7 @@ justify-self: center;
 background-color: white;
 justify-self: center;
 `
-const OTH = styled.div`
+const Block2 = styled.div`
 grid-row-start: 1;
 grid-row-end: 2;
 display: grid;
@@ -90,7 +90,7 @@ width: 275px;
 
 }
 `
-const Crud = styled.div`
+const Block3 = styled.div`
 grid-row-start: 1;
 grid-row-end: 2;
 display: grid;
@@ -119,7 +119,7 @@ width: 275px;
 
 }
 `
-const Crystal = styled.div`
+const Block4 = styled.div`
 grid-row-start: 2;
 grid-row-end: 3;
 display: grid;
@@ -150,7 +150,7 @@ width: 275px;
 
 }
 `
-const Giphy = styled.div`
+const Block5 = styled.div`
 grid-row-start: 2;
 grid-row-end: 3;
 display: grid;
@@ -179,7 +179,7 @@ width: 275px;
 
 }
 `
-const Bama = styled.div`
+const Block6 = styled.div`
 grid-row-start: 2;
 grid-row-end: 3;
 display: grid;
@@ -281,8 +281,8 @@ width: 275px;
 }
 `
 
-const RetailPic = styled.img.attrs({
-  src: retail
+const TubecastPic = styled.img.attrs({
+  src: tubecast
 })`
 grid-row-start: 1;
 grid-row-end: 2;
@@ -337,7 +337,16 @@ export default function Projects() {
       <TheGrid>
         <Header style={{ color: "white"}}>&lt;Projects&gt;</Header>
           <ProjectRow>
-            <Rentable>
+          <Block1>
+              <TubecastPic />
+              <ProjectHead>Tubecast</ProjectHead>
+              <ButtonBox>
+                <a style={{justifySelf: "center"}} href="https://tubecast.netlify.app/" target="_blank" rel="noopener noreferrer"><ProjectButton>Deployed</ProjectButton></a>
+                <a style={{justifySelf: "center"}} href="https://github.com/pierrelampre/tubecast" target="_blank" rel="noopener noreferrer"><ProjectButton>Repo</ProjectButton></a>
+              </ButtonBox>
+              <ProjectBlurb>This application gives a nod to the old school Comcast channel/on demand screen. It runs schedules for 4 channels of 24 hour programming.  Moment.js is used to run the program schedules.</ProjectBlurb>
+            </Block1>
+            <Block2>
               <RentPic />
               <ProjectHead>Rentable</ProjectHead>
               <ButtonBox>
@@ -345,8 +354,8 @@ export default function Projects() {
                 <a style={{justifySelf: "center"}} href="https://github.com/sahasra101/project2" target="_blank" rel="noopener noreferrer"><ProjectButton>Repo</ProjectButton></a>
               </ButtonBox>
               <ProjectBlurb>An application that calculates return on investment on rental properties. Designed for beginners looking to get into the real estate market. This app leverages Zillow and Google Maps API. (You must register/login to view!)</ProjectBlurb>
-            </Rentable>
-            <OTH>
+            </Block2>
+            <Block3>
               <OTHPic />
               <ProjectHead>Only The Hits</ProjectHead>
               <ButtonBox>
@@ -355,8 +364,8 @@ export default function Projects() {
               </ButtonBox>
               <ProjectBlurb>An application that leverages Spotify and BandsInTown API.  It generates five similar artists for the user and helps them to build a playlist of new music.  The user can also see artists tour schedules from BandsInTown.
               </ProjectBlurb>
-            </OTH>
-            <Crud>
+            </Block3>
+            <Block4>
               <BurgerPic />
               <ProjectHead>CRUD Burger</ProjectHead>
               <ButtonBox>
@@ -364,8 +373,8 @@ export default function Projects() {
               <a style={{justifySelf: "center"}} href="https://github.com/PierreLampre/burger" target="_blank" rel="noopener noreferrer"><ProjectButton>Repo</ProjectButton></a>
               </ButtonBox>
               <ProjectBlurb>An application that utilizes CRUD operations to simulate a simple POS system for a small burger restaurant.</ProjectBlurb>
-            </Crud>
-          <Crystal>
+            </Block4>
+          <Block5>
               <CrystalPic />
               <ProjectHead>Crystal Collector</ProjectHead>
               <ButtonBox>
@@ -373,8 +382,8 @@ export default function Projects() {
               <a style={{justifySelf: "center"}} href="https://github.com/PierreLampre/Crystal-Collector/" target="_blank" rel="noopener noreferrer"><ProjectButton>Repo</ProjectButton></a>
               </ButtonBox>
               <ProjectBlurb>A simple game that assigns a random value between 1 amd 12 to four crystals.  If you can match the number displayed by clicking on the crystals, you win.</ProjectBlurb>
-            </Crystal>
-            <Giphy>
+            </Block5>
+            <Block6>
               <DiscoPic />
               <ProjectHead>Giphy API</ProjectHead>
               <ButtonBox>
@@ -382,16 +391,7 @@ export default function Projects() {
               <a style={{justifySelf: "center"}} href="https://github.com/PierreLampre/Giphy-API" target="_blank" rel="noopener noreferrer"><ProjectButton>Repo</ProjectButton></a>
               </ButtonBox>
               <ProjectBlurb>This application creates category buttons.  When the user clicks on the buttons, it generates ten gifs from GiphyhAPI based on the text value of the button.  It is styled four different ways because I like CSS.</ProjectBlurb>
-            </Giphy>
-            <Bama>
-              <RetailPic />
-              <ProjectHead>Bamazon CLI App</ProjectHead>
-              <ButtonBox>
-              <a style={{justifySelf: "center"}} href="https://drive.google.com/file/d/1xvx71MICMZAqQ0j9kox4r05jZGLx3W1H/view" target="_blank" rel="noopener noreferrer"><ProjectButton>Demo</ProjectButton></a>
-              <a style={{justifySelf: "center"}} href="https://github.com/PierreLampre/Bamazon" target="_blank" rel="noopener noreferrer"><ProjectButton>Repo</ProjectButton></a>
-              </ButtonBox>
-              <ProjectBlurb>An application that mimics a command line inventory management system for a brick and mortar retail store.</ProjectBlurb>
-            </Bama>
+            </Block6>
           </ProjectRow>
       </TheGrid>
     </div>
