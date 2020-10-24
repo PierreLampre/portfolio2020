@@ -37,13 +37,13 @@ class App extends Component {
         <Navbar drawerClickHandler={this.drawerToggleClickHandler}/>
         <Sidebar show={this.state.sideDrawerOpen} />
         {backdrop}
-        <a name="aboutme"></a>
+        <div name="aboutme" id="aboutme"></div>
         <AboutMe />
-        <a name="skills"></a>
+        <div name="skills" id="skills"></div>
         <Skills />
-        <a name="projects"></a>
+        <div name="projects" id="projects"></div>
         <Projects />
-        <a name="contact"></a>
+        <div name="contact" id="contact"></div>
         <Contact  />
       </div>
     );
