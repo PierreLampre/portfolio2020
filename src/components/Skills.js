@@ -2,7 +2,7 @@ import React from 'react'
 import styled from "styled-components"
 import hub from "./img/hub.png"
 import bash from "./img/bash.png"
-import trinity from "./img/trinity.jpg"
+import trinity from "./img/3wisemen.png"
 import jquery from "./img/jquery.jpg"
 import bootstrap from "./img/bootstrap.png"
 import firebase from "./img/firebase.png"
