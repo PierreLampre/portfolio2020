@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "styled-components"
-import resume from "./img/my_resume_2020.pdf"
+import resume from "./img/resume_10_2020.pdf"
 import phoneIcon from "./img/phone.jpg"
 import emailIcon from "./img/email.jpg"
 import resumeIcon from "./img/resume.png"
