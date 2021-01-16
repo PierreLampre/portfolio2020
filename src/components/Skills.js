@@ -88,6 +88,7 @@ const Bash = styled.img.attrs({
 })`
   width: 150px;
   height: 150px;
+  object-fit: contain;
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
@@ -108,6 +109,7 @@ const Hub = styled.img.attrs({
 })`
   width: 150px;
   height: 150px;
+  object-fit: contain;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
@@ -128,6 +130,7 @@ const Trinity = styled.img.attrs({
 })`
   width: 150px;
   height: 150px;
+  object-fit: contain;
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 1;
@@ -154,6 +157,7 @@ const Jquery = styled.img.attrs({
 })`
   width: 150px;
   height: 150px;
+  object-fit: contain;
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 1;
@@ -187,6 +191,7 @@ const Bootstrap = styled.img.attrs({
 })`
   width: 150px;
   height: 150px;
+  object-fit: contain;
   grid-column-start: 5;
   grid-column-end: 6;
   grid-row-start: 1;
@@ -228,6 +233,7 @@ const Firebase = styled.img.attrs({
 })`
   width: 150px;
   height: 150px;
+  object-fit: contain;
   grid-column-start: 6;
   grid-column-end: 7;
   grid-row-start: 1;
@@ -269,6 +275,7 @@ const Nodejs = styled.img.attrs({
 })`
   width: 150px;
   height: 150px;
+  object-fit: contain;
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
@@ -310,6 +317,7 @@ const Npm = styled.img.attrs({
 })`
   width: 150px;
   height: 150px;
+  object-fit: contain;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
@@ -351,6 +359,7 @@ const Mysql = styled.img.attrs({
 })`
   width: 150px;
   height: 150px;
+  object-fit: contain;
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 2;
@@ -392,6 +401,7 @@ const Mongo = styled.img.attrs({
 })`
   width: 150px;
   height: 150px;
+  object-fit: contain;
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 2;
@@ -433,6 +443,7 @@ const Reactlogo = styled.img.attrs({
 })`
   width: 150px;
   height: 150px;
+  object-fit: contain;
   grid-column-start: 5;
   grid-column-end: 6;
   grid-row-start: 2;
@@ -476,6 +487,7 @@ const Devtools = styled.img.attrs({
 })`
   width: 150px;
   height: 150px;
+  object-fit: contain;
   grid-column-start: 6;
   grid-column-end: 7;
   grid-row-start: 2;

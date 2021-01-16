@@ -9,7 +9,7 @@ const TheGrid = styled.div`
 display: grid;
 grid-template-rows: .5fr 1fr; 
 grid-template-columns: 1fr 1fr 1fr;
-margin-bottom: 80px;
+padding-bottom: 60px;
 @media screen and (max-width: 640px) {
 
 grid-template-columns: auto;
